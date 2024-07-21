@@ -1,0 +1,52 @@
+/* Filters.css */
+
+.filters-container {
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters-container h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.filter-group label {
+  margin-right: 12px;
+  font-size: 16px;
+  color: #555;
+}
+
+.filter-group input[type="text"] {
+    margin-left: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.apply-filters-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-filters-button:hover {
+  background-color: #0056b3;
+}
