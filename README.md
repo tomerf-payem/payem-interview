@@ -20,12 +20,12 @@
 Your task is to enhance the existing application with the following features:
 
 ### Implement Filters Logic
-- Implement the logic for filters according to the filters present in the UI.
+- Implement the logic for the filters based on the filters available in the UI.
 
 ### Request Details Page
-- When clicking on a request on the requests page, a new page should open with the request details.
+- When clicking on a request on the requests page, a new page should open displaying the request details.
 - Add the missing fields for a specific request.
-- Implement the logic in the frontend and backend for approving or declining a request.
+- Implement the frontend and backend logic for approving or declining a request.
 
 ### Extend Request Object
 - Add a new field to the Request object named `type`.
