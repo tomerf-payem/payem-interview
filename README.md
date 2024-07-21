@@ -1,10 +1,20 @@
 # PayEm Home Assignment
 
-## Current app state
+## Repository Structure
+- **frontend**
+  - Contains the UI code, with routing to create requests, show requests, and view a single request.
+- **backend-node**
+  - Backend code implemented in Node.js. Includes endpoints for creating and fetching requests.
+- **backend-python**
+  - Backend code implemented in Python. Functionality is equivalent to the Node.js backend.
 
-- **Create Requests Page**: Allows the creation of requests with a `/post` endpoint implemented.
-- **Fetch Requests Page**: Fetches requests from the server with a `/get` endpoint implemented.
-- **Backend**: Contains a file that simulates a database where all writes and reads are made from this file.
+## Current App State
+- **Create Requests Page**
+  - Allows the creation of requests with a `/post` endpoint implemented.
+- **Fetch Requests Page**
+  - Fetches requests from the server with a `/get` endpoint implemented.
+- **Backend**
+  - Simulates a database with a file where all reads and writes are performed.
 
 ## The Task
 Your task is to enhance the existing application with the following features:
@@ -13,7 +23,7 @@ Your task is to enhance the existing application with the following features:
 - Implement the logic for filters according to the filters present in the UI.
 
 ### Request Details Page
-- When clicking on a request in the requests page, a new page should open with the request details.
+- When clicking on a request on the requests page, a new page should open with the request details.
 - Add the missing fields for a specific request.
 - Implement the logic in the frontend and backend for approving or declining a request.
 
@@ -23,5 +33,7 @@ Your task is to enhance the existing application with the following features:
   - Purchase request
   - Fund request
   - Reimbursement request
+
+---
 
 Good luck with your assignment!
