@@ -24,7 +24,7 @@ Your task is to enhance the existing application with the following features:
 
 ### Request Details Page
 - When clicking on a request on the requests page, a new page should open displaying the request details.
-- Add the missing fields for a specific request.
+- Add all fields that exist in the database file to be displayed on the request details page.
 - Implement the frontend and backend logic for approving or declining a request.
 
 ### Extend Request Object
