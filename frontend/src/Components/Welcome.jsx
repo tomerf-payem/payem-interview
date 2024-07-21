@@ -8,7 +8,7 @@ const Welcome = () => {
       <h1>Requests Page</h1>
       <div className="button-container">
         <Link to="/create-request" className="welcome-button">Create a request</Link>
-        <Link to="/show-request" className="welcome-button">Show Requests</Link>
+        <Link to="/show-requests" className="welcome-button">Show Requests</Link>
       </div>
     </div>
   );
