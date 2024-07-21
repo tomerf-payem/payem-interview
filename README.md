@@ -2,7 +2,7 @@
 
 ## Repository Structure
 - **frontend**
-  - Contains the UI code, with routing to create requests, show requests, and view a single request.
+  - Contains the UI code, with routing to create requests page, show requests page, and view a single request.
 - **backend-node**
   - Backend code implemented in Node.js. Includes endpoints for creating and fetching requests.
 - **backend-python**
